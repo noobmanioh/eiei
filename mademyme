@@ -1,0 +1,34 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("noobmanioh", "Sentinel")
+
+local Tab = Window:NewTab("bloxfruit")
+local Section = Tab:NewSection("pc คอม")
+
+local Section = Tab:NewSection("pc คอม")
+Section:NewButton("mokuro", "ButtonInfo", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+Section:NewButton("dino", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1EQmGiQr", true))()
+end)
+    Section:NewButton("hulk", "ButtonInfo", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/-XFreeScriptX-/main/4GAME")()
+end)
+    Section:NewButton("maruxhub","ButtonInfo", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontxnt.com/NinoGod/MaruxHub/main/MaruxHubBeta.lua"), true))()
+end)
+    Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
+-- aut 
+
+local Tab = Window:NewTab("aut")
+local Section = Tab:NewSection("trust me")
+
+Section:NewButton("nanohub", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/muzrblx/nanocore/main/NanoLoader/Scripts/6846458508.lua"))()
+end)
+Section:NewButton("flamz", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/GodClass/EpicScripts/main/AUT%20GUI"))()
+end)
