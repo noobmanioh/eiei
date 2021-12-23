@@ -32,3 +32,9 @@ end)
 Section:NewButton("flamz", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/GodClass/EpicScripts/main/AUT%20GUI"))()
 end)
+
+-- dearlership tycoon
+ 
+Section:NewButton("clickonly1time", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/noobmanioh/dearlership/main/farm"))()
+end)
