@@ -34,7 +34,10 @@ Section:NewButton("flamz", "ButtonInfo", function()
 end)
 
 -- dearlership tycoon
- 
+
+local Tab = Window:NewTab("farmdealership")
+local Section = Tab:NewSection("trust me")
+
 Section:NewButton("clickonly1time", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/noobmanioh/dearlership/main/farm"))()
 end)
