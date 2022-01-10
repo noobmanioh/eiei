@@ -4,7 +4,7 @@ local Window = Library.CreateLib("noobmanioh", "Sentinel")
 local Tab = Window:NewTab("bloxfruit")
 local Section = Tab:NewSection("pc คอม")
 
-local Section = Tab:NewSection("pc คอม")
+local Section = Tab:NewSection("ใช้โปรแกรมช่วยเล่นมีความเสี่ยงเสมอ ฝากไว้ให้คิดเสมอ")
 Section:NewButton("mokuro", "ButtonInfo", function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
@@ -21,10 +21,14 @@ end)
 	Library:ToggleUI()
 end)
 
+Section:NewButton("strike", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one"))()
+end)
+
 -- aut 
 
 local Tab = Window:NewTab("aut")
-local Section = Tab:NewSection("trust me")
+local Section = Tab:NewSection("ใช้โปรแกรมช่วยเล่นมีความเสี่ยงเสมอ ฝากไว้ให้คิดเสมอ")
 
 Section:NewButton("nanohub", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/muzrblx/nanocore/main/NanoLoader/Scripts/6846458508.lua"))()
@@ -36,8 +40,18 @@ end)
 -- dearlership tycoon
 
 local Tab = Window:NewTab("farmdealership")
-local Section = Tab:NewSection("trust me")
+local Section = Tab:NewSection("ใช้โปรแกรมช่วยเล่นมีความเสี่ยงเสมอ ฝากไว้ให้คิดเสมอ")
 
 Section:NewButton("clickonly1time", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/noobmanioh/dearlership/main/farm"))()
+end)
+
+-- phanthomforce
+
+local Tab = Window:NewTab("phanthomforce")
+local Section = Tab:NewSection("ใช้โปรแกรมช่วยเล่นมีความเสี่ยงเสมอ ฝากไว้ให้คิดเสมอ")
+
+
+Section:NewButton("strike", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one"))()
 end)
