@@ -55,3 +55,22 @@ local Section = Tab:NewSection("ใช้โปรแกรมช่วยเล
 Section:NewButton("strike", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one"))()
 end)
+
+
+-- roghoul
+
+local Tab = Window:NewTab("phanthomforce")
+local Section = Tab:NewSection("ใช้โปรแกรมช่วยเล่นมีความเสี่ยงเสมอ ฝากไว้ให้คิดเสมอ")
+
+Section:NewButton("lazy hub", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://github.com/LioK251/Scripts/raw/main/lazyhub.lua"))()
+end)
+Section:NewButton("jrl", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/JRL-lav/Main/main/Ro-Ghoul"))()
+end)
+Section:NewButton("jrl", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/JRL-lav/Main/main/Ro-Ghoul"))()
+end)
+Section:NewButton("unknow hub", "ButtonInfo", function()
+   loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
+end)
